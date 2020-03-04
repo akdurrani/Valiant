@@ -7,33 +7,58 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
         <title>Valiant</title>
     </head>
 
     <body>
-        <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#gameplay" role="tab" aria-controls="nav-profile" aria-selected="false">Gameplay</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#about-us" role="tab" aria-controls="nav-contact" aria-selected="false">Research</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#signup" role="tab" aria-controls="nav-contact" aria-selected="false">Sign Up</a>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+        </div>
 
-            <div class="home">
+        <div class="home" id="home">
 
-                <div class="vision-statement">
+            <article class="vision-statement">
 
-                </div>
+            </article>
 
-                <div class="introduction">
-                    <h1>Introduction</h1>
+            <div class="introduction">
 
-                </div>
+                <article class="problem">
+
+                </article>
+
+                <article class="proposed-solution">
+
+                </article>
 
             </div>
 
+        </div>
 
-            <div class="about-us">
+        <div class="gameplay" id="gameplay">
 
+        </div>
 
-            </div>
+        <div class="about-us" id="about-us">
 
+        </div>
 
-        </header>
+        <div class="signup" id="signup">
+
+        </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
