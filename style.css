@@ -1,21 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #000000;
+    font-family: 'Oxanium', cursive;
+
+}
+
+.nav-item{
+    color: #ffffff;
+}
 
 .home{
-    height: 1000px;
+    height: 1500px;
+    color: white;
+    background-color: #062B72;
+    background-image: url('images/vr.png');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Oxanium', cursive;
 }
+
+.home h1, .home h2{
+    color: #F326CB;
+}
+
+.home h4{
+    color: #2BF9F9;
+}
+
 
 .gameplay{
     height: 1000px;
-    background-color: #4ba4ed;
+    padding-top: 100px;
+    background-color: #ffffff;
+    font-family: 'Oxanium', cursive;
+}
+
+.research{
+    height: 875px;
+    background-color: #E64441;
+    color: #ffffff;
+    padding-top: 50px;
+    font-family: 'Oxanium', cursive;
 
 }
 
-.about-us{
-    height: 500px;
-    background-color: black;
+.further-reading a{
+    color: #F8D14D;
+}
 
+.about-us{
+    height: 1300px;
+    background-color: #000000;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: #ffffff;
+    font-family: 'Oxanium', cursive;
+}
+
+.about-us img{
+    width: 50%;
+    height: auto;
 }
 
 .signup{
     height: 700px;
-    background-color: #f92e36;
+    /* background-color: #f92e36; */
+    background-color: #F8D14D;
+}
+
+.vision-statement{
+    padding-top: 250px;
+    padding-bottom: 350px;
+}
+
+
+#superhero-img{
+    width: 100%;
+    height: auto;
+
 }
