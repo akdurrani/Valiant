@@ -34,13 +34,22 @@ nav {
 .gameplay{
     height: 1000px;
     padding-top: 100px;
-    background-color: #ffffff;
+    background-color: white;
     font-family: 'Oxanium', cursive;
+}
+
+.carousel-inner{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 100%; // Add this
 }
 
 .research{
     height: 875px;
-    background-color: #E64441;
+    background-color: #f92e36;
     color: #ffffff;
     padding-top: 50px;
     font-family: 'Oxanium', cursive;
@@ -48,12 +57,12 @@ nav {
 }
 
 .further-reading a{
-    color: #F8D14D;
+    color: white;
 }
 
 .about-us{
     height: 1300px;
-    background-color: #000000;
+    background-color: black;
     padding-top: 50px;
     padding-left: 100px;
     color: #ffffff;
@@ -68,7 +77,7 @@ nav {
 .signup{
     height: 700px;
     /* background-color: #f92e36; */
-    background-color: #F8D14D;
+    background-color: #ffd01d;
 }
 
 .vision-statement{
