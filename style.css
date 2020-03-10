@@ -80,7 +80,7 @@ hr{
 }
 
 .about-us{
-    height: 900px;
+    height: 1000px;
     background-image: url('images/vr.png');
     background-image: url('images/vr.png');
     background-attachment: fixed;
@@ -94,6 +94,21 @@ hr{
 .about-us img{
     width: 50%;
     height: auto;
+}
+
+.about-us p{
+    padding-top: 10px;
+}
+#team-2{
+    padding-top: 50px;
+}
+
+.team-img {
+    border-radius: 50%;
+
+}
+.team-role{
+    padding-top: 20px;
 }
 
 .signup{
