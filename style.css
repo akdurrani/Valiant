@@ -7,6 +7,11 @@ nav {
     font-family: 'Oxanium', cursive;
 }
 
+.navbar-brand img{
+    width: 35%;
+    height: auto;
+}
+
 .nav-item{
     color: #ffffff;
 }
@@ -48,7 +53,7 @@ nav {
     max-width: 100%;
     line-height: 1;
     margin:auto;
-    width: 100%; // Add this
+    width: 100%; 
 }
 
 .research{
@@ -88,7 +93,7 @@ nav {
 }
 
 .vision-statement{
-    padding-top: 250px;
+    padding-top: 300px;
     padding-bottom: 350px;
 }
 
