@@ -8,7 +8,7 @@ nav {
 }
 
 hr{
-    background-color: white;
+    background-color: black;
 }
 
 
@@ -39,6 +39,7 @@ hr{
 .home h2 {
     color: #F326CB;
 }
+
 
 .home h4{
     color: #2BF9F9;
@@ -75,18 +76,22 @@ hr{
 
 }
 
+.research h3{
+    color: #48ffd5
+}
+
 .further-reading a{
     color: white;
 }
 
 .about-us{
-    height: 1000px;
-    background-image: url('images/vr.png');
-    background-image: url('images/vr.png');
+    height: 1200px;
+    background-color: white;
     background-attachment: fixed;
     background-size: cover;
     padding-top: 100px;
     padding-left: 100px;
+    padding-right: 50px;
     color: #ffffff;
     font-family: 'Oxanium', cursive;
 }
@@ -99,6 +104,11 @@ hr{
 .about-us p{
     padding-top: 10px;
 }
+
+
+#team-1{
+    padding-bottom: 50px;
+}
 #team-2{
     padding-top: 50px;
 }
@@ -109,9 +119,13 @@ hr{
 }
 .team-role{
     padding-top: 20px;
+    color: black;
 }
 
 .signup{
+    background-image: url('images/vr.png');
+    background-attachment: fixed;
+    background-size: cover;
     height: 500px;
     /* background-color: #f92e36; */
     background-color: black;
@@ -127,8 +141,4 @@ hr{
     width: 100%;
     height: auto;
 
-}
-
-#team{
-    width: 100%;
 }
