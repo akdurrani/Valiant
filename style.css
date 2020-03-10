@@ -7,6 +7,10 @@ nav {
     font-family: 'Oxanium', cursive;
 }
 
+hr{
+    background-color: white;
+}
+
 .navbar-brand img{
     width: 35%;
     height: auto;
@@ -47,6 +51,11 @@ nav {
     font-family: 'Oxanium', cursive;
 }
 
+#section2{
+    padding-top: 20px;
+}
+
+
 .carousel-inner{
     display: block;
     height: auto;
@@ -57,8 +66,8 @@ nav {
 }
 
 .research{
-    height: 875px;
-    background-color: #f92e36;
+    height: 1050px;
+    background-color: black;
     color: #ffffff;
     padding-top: 50px;
     font-family: 'Oxanium', cursive;
@@ -70,7 +79,7 @@ nav {
 }
 
 .about-us{
-    height: 1300px;
+    height: 900px;
     background-image: url('images/vr.png');
     background-image: url('images/vr.png');
     background-attachment: fixed;
@@ -87,7 +96,7 @@ nav {
 }
 
 .signup{
-    height: 700px;
+    height: 500px;
     /* background-color: #f92e36; */
     background-color: black;
 }
@@ -104,3 +113,6 @@ nav {
 
 }
 
+#team{
+    width: 100%;
+}
