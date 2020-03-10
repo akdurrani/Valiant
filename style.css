@@ -5,7 +5,6 @@ html {
 nav {
     background-color: #000000;
     font-family: 'Oxanium', cursive;
-
 }
 
 .nav-item{
@@ -22,7 +21,12 @@ nav {
     font-family: 'Oxanium', cursive;
 }
 
-.home h1, .home h2{
+.home h1{
+    color: #F326CB;
+    font-size: 100px;
+}
+
+.home h2 {
     color: #F326CB;
 }
 
@@ -32,7 +36,7 @@ nav {
 
 
 .gameplay{
-    height: 1000px;
+    height: 600px;
     padding-top: 100px;
     background-color: white;
     font-family: 'Oxanium', cursive;
@@ -62,7 +66,10 @@ nav {
 
 .about-us{
     height: 1300px;
-    background-color: black;
+    background-image: url('images/vr.png');
+    background-image: url('images/vr.png');
+    background-attachment: fixed;
+    background-size: cover;
     padding-top: 50px;
     padding-left: 100px;
     color: #ffffff;
@@ -77,7 +84,7 @@ nav {
 .signup{
     height: 700px;
     /* background-color: #f92e36; */
-    background-color: #ffd01d;
+    background-color: black;
 }
 
 .vision-statement{
@@ -91,3 +98,4 @@ nav {
     height: auto;
 
 }
+
