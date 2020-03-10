@@ -12,6 +12,8 @@ hr{
 }
 
 
+
+
 .navbar-brand img{
     width: 35%;
     height: auto;
@@ -22,7 +24,7 @@ hr{
 }
 
 .home{
-    height: 1600px;
+    height: 700px;
     color: white;
     background-color: #062B72;
     background-image: url('images/vr.png');
@@ -45,14 +47,39 @@ hr{
     color: #2BF9F9;
 }
 
-
-.gameplay{
-    height: 600px;
-    padding-top: 100px;
-    background-color: white;
+.introduction{
+    height: 800px;
+    padding-top: 150px;
+    color: white;
+    background-color: #062B72;
+    background-image: url('images/vr.png');
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Oxanium', cursive;
 }
 
+.introduction h2 {
+    color: #F326CB;
+}
+
+.introduction h4{
+    color: #2BF9F9;
+}
+
+.gameplay{
+    background-image: url('images/vr.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    font-family: 'Oxanium', cursive;
+}
+
+#mockups{
+    position:absolute;
+    right:0;
+}
 #section2{
     padding-top: 20px;
 }
@@ -85,7 +112,7 @@ hr{
 }
 
 .about-us{
-    height: 1200px;
+    height: 1150px;
     background-color: white;
     background-attachment: fixed;
     background-size: cover;
@@ -110,7 +137,7 @@ hr{
     padding-bottom: 50px;
 }
 #team-2{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .team-img {
@@ -123,9 +150,7 @@ hr{
 }
 
 .signup{
-    background-image: url('images/vr.png');
-    background-attachment: fixed;
-    background-size: cover;
+
     height: 500px;
     /* background-color: #f92e36; */
     background-color: black;

@@ -4,15 +4,18 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-        <!-- Google Font: Oxanium (regular 400) -->
-        <link href="https://fonts.googleapis.com/css?family=Oxanium:400,700&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Oxanium:400,700&display=swap" rel="stylesheet">
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+
         <title>Valiant</title>
     </head>
 
@@ -23,15 +26,16 @@
               </a>
             <div class="nav justify-content-end" id="nav">
                 <a class="nav-item nav-link" id="nav-home" href="#introduction" aria-controls="nav-introduction" aria-selected="true"><bold>Introduction</bold></a>
+                <a class="nav-item nav-link" id="nav-profile" href="#research" aria-controls="nav-profile" aria-selected="false"><bold>Research</bold></a>
                 <a class="nav-item nav-link" id="nav-profile" href="#gameplay" aria-controls="nav-profile" aria-selected="false"><bold>Gameplay</bold></a>
                 <a class="nav-item nav-link" id="nav-contact" href="#about-us" aria-controls="nav-contact" aria-selected="false"><bold>About Us</bold></a>
                 <a class="nav-item nav-link" id="nav-contact" href="#signup" aria-controls="nav-contact" aria-selected="false"><bold>Sign Up</bold></a>
             </div>
         </nav>
-        <div class="home" id="home">
+        <div class="home" id="home" >
             <div class="container">
                 <div class="row">
-                    <div data-aos="fade-left" data-aos-easing="ease-in-sine" class="col-12 col-sm-6">
+                    <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="col-12 col-sm-6">
                         <article class="vision-statement">
                             <h1>Valiant</h1>
                             <h4>Stimulate | Escalate | Dominate | Eradicate</h4>
@@ -41,32 +45,90 @@
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-right" class="container" id="introduction">
+        </div>
+        <div class="introduction" id="introduction">
+            <div data-aos="fade-left" class="container">
                 <div class="row">
-                    <div class="introduction">
-                        <div class="col-12 col-sm-6">
-                            <h2>Introduction</h2>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <article class="problem">
-                                <h4>Problem</h4>
-                                <p>Up to 9.2 percent of children and adolescents are believed to experience some type of phobia.
-                                    Untreated common phobias that start at a young age can turn into something more severe (i.e. severe social anxiety) growing up. (Common phobias among kids include fear of heights, closed spaces, darkness and needles (going to the doctor or dentist) and social phobia)
-                                    Kids can end up getting bullied for having social phobia or any phobia. Bullying then will worsen a child’s mental state which can lead to something more serious growing up.
-                                    Phobias can severely affect a person’s well being if the trigger is unavoidable.
-                                </p>
-                            </article>
+                    <div class="col-12 col-sm-6">
+                        <h2>Introduction</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <article class="problem">
+                            <h4>Problem</h4>
+                            <p>Up to 9.2 percent of children and adolescents are believed to experience some type of phobia.
+                                Untreated common phobias that start at a young age can turn into something more severe (i.e. severe social anxiety) growing up. (Common phobias among kids include fear of heights, closed spaces, darkness and needles (going to the doctor or dentist) and social phobia)
+                                Kids can end up getting bullied for having social phobia or any phobia. Bullying then will worsen a child’s mental state which can lead to something more serious growing up.
+                                Phobias can severely affect a person’s well being if the trigger is unavoidable.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <article class="proposed-solution">
+                            <h4>Proposed Solution</h4>
+                            <p>Use VR to simulate Exposure Therapy in a form of an engaging story-based game.
+                                When a user is going to encounter their phobia in real life, VR can be used to place them in a calm place to repress their fear.
+                                Use VR as an assisting tool for psychologists and psychiatrists to determine the progress of their treatment of their phobia.
+                            </p>
+                            <button class="btn btn-secondary" href="#research" role="button">Click here for more research &raquo;</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="research" id="research">
+            <div class="container">   
+                <div class="row">
+                    <div class="research-says">
+                        <div class="col-12">
+                            <h2>What research says about VR and phobias…</h2>
                         </div>
                         <br>
-                        <div class="col-12 col-sm-6">
-                            <article class="proposed-solution">
-                                <h4>Proposed Solution</h4>
-                                <p>Use VR to simulate Exposure Therapy in a form of an engaging story-based game.
-                                    When a user is going to encounter their phobia in real life, VR can be used to place them in a calm place to repress their fear.
-                                    Use VR as an assisting tool for psychologists and psychiatrists to determine the progress of their treatment of their phobia.
-                                </p>
-                                <button class="btn btn-secondary" href="#research" role="button">Click here for more research &raquo;</button>
-                            </article>
+                        <div class="col-12">
+                            <div data-aos="fade-down-left" class="row featurette">
+                                <div class="col-md-7 order-md-2" id="section2">
+                                    <h3>Virtual reality and tactile augmentation in the treatment of spider phobia: a case report</h3>
+                                    <p>As seen in the title, this research article focuses on the use of VR to treat arachnophobia.
+                                        The paper first explains that the application of VR is effective to treat fear of heights and flying.
+                                        This is based on previous research done. With this Hoffman and Weghorst argue that VR is a potential
+                                        solution to different types of phobias. This is due to desensitization, when patients are exposed to
+                                        their fears incrementally it reduces the emotional response they have when confronted with their phobia.
+                                        The benefit of using VR is that the therapist or the patient can control the simulation giving them a
+                                        sense of security. For this to be successful, the patient must feel like the simulation is real not cartoony.
+                                        Hoffman and Weghorst go on to test this with people who have spider phobia. After exposing them to spiders
+                                        using VR over time, the patients showed improvements in their everyday life. Patients reported that their
+                                        life got significantly better. They could live their life and have more time to do the things they wanted
+                                        to do because they no longer had obsessive compulsions to avoid their phobia or be vigilant and weary of
+                                        encountering their phobia.</p>
+                                </div>
+                                <div class="col-md-5 order-md-1">
+                                    <img src="static/VR.png" width="400px" height="400px">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-12">
+                            <hr class="featurette-divider">
+                            <div data-aos="fade-up-right" class="row featurette" id="section2">
+                                <div class="col-md-7">
+                                    <h3>Virtual reality in the treatment of spider phobia: a controlled study</h3>
+                                    <p>In this research article, they also researched the effects of using VR to address
+                                        the phobia of spiders. For this study, even though patients were scared and struggled
+                                        with facing their fears, no one dropped out of the study. The researchers note this as
+                                        valuable because it shows that people are willing to give VR a try to help with their phobia
+                                        and complete their treatment all the way through. From the study, the results show that the
+                                        participants who used VR met the criteria to be clinically improved on their phobia. One thing
+                                        that helped these users feel comfortable in the VR environment facing their fear is the fact
+                                        that they were able to touch their phobia, a spider, without the risk of physical danger. This
+                                        alongside previous research may increase how many people with phobias come out and seek treatment.</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary" href="#" role="button">View details &raquo;</button>
                         </div>
                     </div>
                 </div>
@@ -74,13 +136,9 @@
         </div>
 
         <div class="gameplay" id="gameplay">
-
-            <div class="container">
-
+            <div data-aos="fade-right" >
                 <div class="row">
-
-                    <div class="col">
-
+                    <div class="col-12 col-sm-8" id="mockups">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -110,7 +168,6 @@
                                     <img src="static/Mockup1.png" style="width: 100%" alt="Sixth Slide">
                                 </div>
                             </div>
-
                             <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
                                 <span class="carousel-control-prev-icon"></span>
                             </a>
@@ -118,72 +175,15 @@
                                 <span class="carousel-control-next-icon"></span>
                             </a>
                         </div>
-
-                    </div>
-                    <div class="col-12 col-sm-4"></div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="research" id="research">
-            <div class="container">   
-                <div class="row">
-                    <div class="research-says">
-                        <div class="col-12">
-                            <h2>What research says about VR and phobias…</h2>
-                        </div>
-                        <br>
-                            <div class="col-12">
-                                <div data-aos="fade-down-left" class="row featurette">
-                                    <div class="col-md-7 order-md-2" id="section2">
-                                        <h3>Virtual reality and tactile augmentation in the treatment of spider phobia: a case report</h3>
-                                        <p>As seen in the title, this research article focuses on the use of VR to treat arachnophobia.
-                                            The paper first explains that the application of VR is effective to treat fear of heights and flying.
-                                            This is based on previous research done. With this Hoffman and Weghorst argue that VR is a potential
-                                            solution to different types of phobias. This is due to desensitization, when patients are exposed to
-                                            their fears incrementally it reduces the emotional response they have when confronted with their phobia.
-                                            The benefit of using VR is that the therapist or the patient can control the simulation giving them a
-                                            sense of security. For this to be successful, the patient must feel like the simulation is real not cartoony.
-                                            Hoffman and Weghorst go on to test this with people who have spider phobia. After exposing them to spiders
-                                            using VR over time, the patients showed improvements in their everyday life. Patients reported that their
-                                            life got significantly better. They could live their life and have more time to do the things they wanted
-                                            to do because they no longer had obsessive compulsions to avoid their phobia or be vigilant and weary of
-                                            encountering their phobia.</p>
-                                    </div>
-                                    <div class="col-md-5 order-md-1">
-                                        <img src="static/VR.png" width="400px" height="400px">
-                                    </div>
-                                </div>
-                            </div>    
-                        <br>
-                            <div class="col-12">
-                                <hr class="featurette-divider">
-                                <div data-aos="fade-up-right" class="row featurette" id="section2">
-                                    <div class="col-md-7">
-                                        <h3>Virtual reality in the treatment of spider phobia: a controlled study</h3>
-                                        <p>In this research article, they also researched the effects of using VR to address
-                                            the phobia of spiders. For this study, even though patients were scared and struggled
-                                            with facing their fears, no one dropped out of the study. The researchers note this as
-                                            valuable because it shows that people are willing to give VR a try to help with their phobia
-                                            and complete their treatment all the way through. From the study, the results show that the
-                                            participants who used VR met the criteria to be clinically improved on their phobia. One thing
-                                            that helped these users feel comfortable in the VR environment facing their fear is the fact
-                                            that they were able to touch their phobia, a spider, without the risk of physical danger. This
-                                            alongside previous research may increase how many people with phobias come out and seek treatment.</p>
-                                    </div>
-                                </div>
-                                <button class="btn btn-secondary" href="#" role="button">View details &raquo;</button>
-                            </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="about-us" id="about-us">
-            <div class="containter"">
+            <div class="containter">
                 <div class="row" >
-                    <div data-aos="fade-up" class="row" id="team-1">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="row" id="team-1">
                         <div class="col-lg-4">
                             <img class="team-img"src="static/hannah.jpg"</img>
                             <div class="team-role">Hannah Fragante
@@ -207,10 +207,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <hr class="featurette-divider">
-                    </div>
-                    <div data-aos="fade-up" class="row" id="team-2">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="row" id="team-2">
                         <div class="col-lg-4">
                             <img class="team-img"src="static/patty.jpg"</img>
                             <div class="team-role">Ana Patricia Ruiz
@@ -236,17 +233,24 @@
                 </div>
             </div>
         </div>
+
+
         <div class="signup" id="signup">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
         </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackipath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackipath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
+
 <script>
     AOS.init();
+    AOS.refresh(true);
 </script>
