@@ -71,7 +71,7 @@ hr{
     color: #ffffff;
     background-attachment: fixed;
     background-size: cover;
-    height: 800px;
+    height: 1800px;
     padding-top: 60px;
     padding-bottom: 100px;
     padding-left: 80px;
@@ -80,6 +80,30 @@ hr{
 
 .gameplay h1 {
     color: #F326CB;
+}
+
+#story{
+    padding-top: 200px;
+}
+
+#gameplay-desc{
+    padding-top: 200px;
+}
+
+#level-up{
+    padding-top: 200px;
+}
+
+.feedback{
+    padding-left: 180px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Oxanium', cursive;
+}
+
+#story {
+    padding: 30px;
+    padding-right: 50px;
 }
 
 #mockups{
@@ -173,6 +197,15 @@ hr{
     padding-bottom: 350px;
 }
 
+#mockup7{
+    width: 70%;
+    height: auto;
+}
+
+#mockup1{
+    width: 70%;
+    height: auto;
+}
 
 #superhero-img{
     width: 100%;

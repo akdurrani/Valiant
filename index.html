@@ -13,6 +13,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Oxanium:400,700&display=swap" rel="stylesheet">
 
+        <link rel="icon" type="image/png" href="/images/Valiant1.png">
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
 
@@ -149,17 +151,60 @@
         <div class="gameplay" id="gameplay">
             <div data-aos="fade-right" >
                 <div class="row">
-                    <div class="col-md-6">
-                        <h1>Gameplay</h1>
+                    <div class="col-md-6" id="story">
+                        <h1>Story</h1>
                         <p>Valiant is creating a world in which each player is a new student at Valiant Academy, 
                             a school for the heroes of tomorrow. The academy is designed to train, strengthen, 
                             and education children who are gifted with powers to become superheroes and fight their fears. 
                             The game borrows concpets from the japanese animated series, My Hero Academia, and 
-                            the US comic book story of X-Men. 
-                            
+                            the US comic book story of X-Men. Both of these stories are focused on a school setting where heroes 
+                            are being trained to protect the world. The caveat for our game is that their power that they have 
+                            to strengthen, is related to their phobia. The player must rise above their fear to face a villain 
+                            threatening to destroy the school so the future can have no heroes at all leaving it defenseless. The 
+                            child is the only one that can lead the fight but he must train hard in order to be ready to even face them.
+
                         </p>
                     </div>
-                    <div class="col-md-6" id="mockups">
+                    <div class="col-md-6" id="video">
+                        <video width="600" controls autoplay loop>
+                            <source src="static/720p.MOV" type="video/mp4">
+                        </video>
+                    </div>
+                    <br>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="row" id="gameplay-desc">
+                        <div class="col-md-6">
+                            <h1>Gameplay</h1>
+                            <p>Valiant is set in the real world during this timeline where the player is as a new transfer 
+                                student to Valiant Academy. At the academy, the player is taken through different levels of training to 
+                                build their superpower. Through this gameplay, the player is faced with their phobia, starting with easier levels.
+                                The phobia that is addressed through this game is acrophobia, the irrational fear of heights. The player will 
+                                have the power of flight, they can fly ever so high but to do so they need to improve on their fear of heights. 
+                                The player has to go through flight training inorder to advance in school and the storyline. Incrementally the child 
+                                will face their fear of heights by going through a series of training sessions. At the end of each training session, 
+                                they will report to their teacher how they felt throughout the training. 
+
+
+                            </p>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <img src="static/Mockup7.png" id="mockup7">
+                        </div>
+                    </div>
+                    <br>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="row" id="level-up">
+                        <div class="col-md-6" id="level-up">
+                            <h1>Level Up</h1>
+                            <p>As players move through levels and play more on Valiant, they are rewarded with items and points in the game
+                                as a way to motivate them to continue with their training.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="static/Mockup1.png" id="mockup1">
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-6" id="mockups">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -196,7 +241,7 @@
                                 <span class="carousel-control-next-icon"></span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -259,6 +304,37 @@
         <div class="signup" id="signup">
             <div class="container">
                 <div class="row">
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback" id="feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form method="post">
+                            <fieldset>
+                            <legend>Feedback:</legend>
+                            
+                            <label for="firstName">Full name:</label><br>
+                            <input type="text" id="firstName" name="firstName" placeholder="First name" size="30" required>
+                            <input type="text" id="lastName" name="lastName"placeholder="Last name" size="30" required><br>
+                    
+                    
+                            <label for="email">Email:</label><br>
+                            <input type="text" id="email" name="email" placeholder="" title="please enter a valid email" pattern="[A-Za-z0-9]{1,}@[A-Za-z0-9]{1,}.[A-Za-z0-9]{1,}" size="63" required><br>
+                    
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" cols="63" row="10" required>your feedback...</textarea> <br>
+                    
+                            
+                    
+                            <button type="submit" value="Submit">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
 
                 </div>
             </div>
