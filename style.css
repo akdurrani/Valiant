@@ -68,17 +68,24 @@ hr{
 
 .gameplay{
     background-image: url('images/vr.png');
+    color: #ffffff;
     background-attachment: fixed;
     background-size: cover;
     height: 800px;
-    padding-top: 160px;
+    padding-top: 60px;
     padding-bottom: 100px;
+    padding-left: 80px;
     font-family: 'Oxanium', cursive;
 }
 
+.gameplay h1 {
+    color: #F326CB;
+}
+
 #mockups{
-    position:absolute;
+    /* position:absolute; */
     right:0;
+
 }
 #section2{
     padding-top: 20px;
