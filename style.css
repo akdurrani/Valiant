@@ -110,10 +110,17 @@ body {
 }
 
 .feedback{
-    padding-left: 180px;
-    padding-top: 80px;
+    color: black;
+    font-family: 'Oxanium', cursive;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 50px;
     padding-bottom: 80px;
     font-family: 'Oxanium', cursive;
+}
+
+#feedback1{
+    padding-top: 120px;
 }
 
 #section1{
@@ -198,9 +205,12 @@ body {
 
 .signup{
 
+    color: black;
+    font-family: 'Oxanium', cursive;
+
     height: 500px;
     /* background-color: #f92e36; */
-    background-color: black;
+    background-color: white;
 }
 
 .vision-statement{

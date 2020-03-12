@@ -243,23 +243,13 @@
             </div>
         </div>
 
-
-        <!---<div class="signup" id="signup">
-            <div class="container">
-                <div class="row">
-
-                </div>
-            </div>
-        </div>--->
-
         <div class="feedback" id="feedback">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <form method="post">
+                    <div class="col-6">
+                        <h4>Feedback:</h4>
+                        <form method="post" id="feedback1">
                             <fieldset>
-                            <legend>Feedback:</legend>
-                            
                             <label for="firstName">Full name:</label><br>
                             <input type="text" id="firstName" name="firstName" placeholder="First name" size="30" required>
                             <input type="text" id="lastName" name="lastName"placeholder="Last name" size="30" required><br>
@@ -270,14 +260,35 @@
                     
                             <label for="message">Message:</label><br>
                             <textarea id="message" name="message" cols="63" row="10" required>your feedback...</textarea> <br>
-                    
-                            
-                    
-                            <button type="submit" value="Submit">Submit</button>
+
+                                <button class="btn btn-info my-4 btn-block" type="submit">Submit</button>
                             </fieldset>
+
                         </form>
                     </div>
 
+                    <div class="col-6">
+                        <h4>Sign up for our newsletter to see all the latest news at VR-Phobia</h4>
+                        <form class="text-center border border-light p-5" action="#!">
+                            <p class="h4 mb-4">Sign up</p>
+
+                            <div class="form-row mb-4">
+                                <div class="col">
+                                    <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+
+                                    <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+
+                            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                            <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                            <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                            </small>
+                            <button class="btn btn-info my-4 btn-block" type="submit">Subscribe</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
