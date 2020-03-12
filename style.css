@@ -8,11 +8,21 @@ nav {
 }
 
 hr{
-    background-color: black;
+    background-color: white;
 }
 
+body {
+    overflow-x: hidden;
+}
 
-
+.hidden-thing {
+    position: absolute;
+    left: 100%;
+    right:100%;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
 
 .navbar-brand img{
     width: 35%;
@@ -66,32 +76,37 @@ hr{
     color: #2BF9F9;
 }
 
-.gameplay{
+#body{
     background-image: url('images/vr.png');
-    color: #ffffff;
     background-attachment: fixed;
     background-size: cover;
-    height: 1800px;
-    padding-top: 60px;
-    padding-bottom: 100px;
-    padding-left: 80px;
+
+}
+
+.gameplay{
+    height: 900px;
+    background-color: black;
+    color: #ffffff;
+    padding-top: 50px;
     font-family: 'Oxanium', cursive;
 }
 
-.gameplay h1 {
-    color: #F326CB;
+.gameplay h3{
+    font-size: 40px;
+    color: #48ffd5
 }
 
-#story{
-    padding-top: 200px;
+.gameplay h4{
+    color: #48ffd5;
+    font-size: 30px;
 }
 
-#gameplay-desc{
-    padding-top: 200px;
+#game-section2{
+    padding-top: 50px;
 }
 
-#level-up{
-    padding-top: 200px;
+#video{
+    padding-top: 90px;
 }
 
 .feedback{
@@ -101,20 +116,13 @@ hr{
     font-family: 'Oxanium', cursive;
 }
 
-#story {
-    padding: 30px;
-    padding-right: 50px;
+#section1{
+    padding-top: 50px;
 }
 
-#mockups{
-    /* position:absolute; */
-    right:0;
-
-}
 #section2{
-    padding-top: 20px;
+    padding-top: 50px;
 }
-
 
 .carousel-inner{
     display: block;
@@ -126,7 +134,7 @@ hr{
 }
 
 .research{
-    height: 1250px;
+    height: 1300px;
     background-color: black;
     color: #ffffff;
     padding-top: 100px;
@@ -134,8 +142,11 @@ hr{
 
 }
 
-.research h3{
-    color: #48ffd5
+.research h3 {
+
+    color: #48ffd5;
+    font-size: 30px;
+
 }
 .further-reading{
     padding-top: 20px;
@@ -148,13 +159,13 @@ hr{
 }
 
 .about-us{
-    height: 1150px;
+    height: 850px;
     background-color: white;
     background-attachment: fixed;
     background-size: cover;
     padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 50px;
+    padding-left: 190px;
+
     color: #ffffff;
     font-family: 'Oxanium', cursive;
 }
@@ -197,18 +208,5 @@ hr{
     padding-bottom: 350px;
 }
 
-#mockup7{
-    width: 70%;
-    height: auto;
-}
 
-#mockup1{
-    width: 70%;
-    height: auto;
-}
 
-#superhero-img{
-    width: 100%;
-    height: auto;
-
-}
